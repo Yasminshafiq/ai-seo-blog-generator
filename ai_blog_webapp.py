@@ -10,7 +10,7 @@ from email.mime.multipart import MIMEMultipart
 # --------------------------------------------------------
 # 🔹 STEP 1: CONFIG
 # --------------------------------------------------------
-GEMINI_API_KEY = "AIzaSyAf1X-nWg83HHAdxsqa29A0R2zPtC8wBQ0"
+GEMINI_API_KEY = ""
 LINKEDIN_ACCESS_TOKEN = "YOUR_LINKEDIN_ACCESS_TOKEN"
 MAIL_SENDER = "yasminshafiq01@gmail.com"
 MAIL_APP_PASSWORD = "YOUR_APP_PASSWORD"
@@ -149,4 +149,5 @@ if "blog_content" in st.session_state:
 
 st.markdown("---")
 st.caption("💡 Built with ❤️ using Gemini 2.5 Flash & Streamlit — by Yasmin's AI Blog Suite")
+
 
